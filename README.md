@@ -5,6 +5,8 @@ This repository contains the necessary files to get you started with Intel's FPG
 1. **host** This directory contains the host code for the OpenCL application. Understanding the major parts of this is important, we will go over this in class.
 2. **device** This directory contains the OpenCL kernel that the host program will execute. The kernel executes a vector addition on two input vectors and stores the result in an output vector.
 
+## Building and Running the Code
+
 Henceforth, the directory that contains this file will be referred to as the top-level directory. To run the code, do the following:
 
 1. In the top-level directory, run `make`. This will build the host program.
